@@ -374,8 +374,6 @@ namespace Web.Controllers
                 var result = await UserManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
-                    //await StoreAuthTokenClaims(user);
-
                     result = await UserManager.AddLoginAsync(user.Id, info.Login);
                     if (result.Succeeded)
                     {
@@ -388,32 +386,6 @@ namespace Web.Controllers
 
             ViewBag.ReturnUrl = returnUrl;
             return View(model);
-        }
-
-        private async Task StoreAuthTokenClaims(ApplicationUser user)
-        {
-            // Get the claims identity
-            ClaimsIdentity claimsIdentity =
-                await AuthenticationManager.GetExternalIdentityAsync(DefaultAuthenticationTypes.ExternalCookie);
-
-            if (claimsIdentity != null)
-            {
-                // Retrieve the existing claims
-                var currentClaims = await UserManager.GetClaimsAsync(user.Id);
-
-                // Get the list of access token related claims from the identity
-                var tokenClaims = claimsIdentity.Claims
-                    .Where(c => c.Type.StartsWith("urn:tokens:"));
-
-                // Save the access token related claims
-                foreach (var tokenClaim in tokenClaims)
-                {
-                    if (!currentClaims.Contains(tokenClaim))
-                    {
-                        await UserManager.AddClaimAsync(user.Id, tokenClaim);
-                    }
-                }
-            }
         }
 
         //

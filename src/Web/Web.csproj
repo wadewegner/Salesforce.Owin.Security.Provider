@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5C878853-7D2D-4E21-8E54-F000AD1E6CD9}</ProjectGuid>
+    <ProjectGuid>{D4889803-6CF3-4932-8301-EE08B04912C4}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -20,7 +20,6 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <NuGetPackageImportStamp>472ddfc1</NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,113 +39,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.Owin, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.3.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Security.3.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Facebook, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Google, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Owin.Security.Twitter, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Threading.Tasks">
-      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Threading.Tasks.Extensions">
-      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Threading.Tasks.Extensions.Desktop">
-      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.6.0.5\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Salesforce.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DeveloperForce.Force.0.5.4\lib\Salesforce.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Salesforce.Force, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DeveloperForce.Force.0.5.4\lib\Salesforce.Force.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.IdentityModel" />
-    <Reference Include="System.Net" />
-    <Reference Include="System.Net.Http.Extensions, Version=2.2.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http.Primitives, Version=4.2.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.Net.Http.2.2.28\lib\net45\System.Net.Http.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime" />
-    <Reference Include="System.Threading.Tasks" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -164,15 +66,46 @@
     </Reference>
     <Reference Include="System.Net.Http.WebRequest">
     </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
-    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -191,6 +124,33 @@
     <Reference Include="Owin">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.2.1.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.2.1.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -198,6 +158,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\Startup.Auth.Salesforce.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -207,695 +168,28 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\Salesforce\AcceptedEventRelation.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Account.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AccountCleanInfo.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AccountContactRole.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AccountFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AccountHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AccountPartner.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AccountShare.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ActivityHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AdditionalNumber.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AggregateResult.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Announcement.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ApexClass.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ApexComponent.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ApexLog.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ApexPage.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ApexTestQueueItem.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ApexTestResult.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ApexTrigger.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AppMenuItem.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Approval.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Asset.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AssetFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AssignmentRule.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AsyncApexJob.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AttachedContentDocument.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Attachment.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AuthProvider.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\AuthSession.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\BrandTemplate.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\BusinessHours.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\BusinessProcess.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CallCenter.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Campaign.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CampaignFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CampaignMember.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CampaignMemberStatus.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CampaignShare.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Case.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseComment.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseContactRole.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseShare.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseSolution.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseStatus.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseTeamMember.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseTeamRole.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseTeamTemplate.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseTeamTemplateMember.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CaseTeamTemplateRecord.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CategoryData.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CategoryNode.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ChatterActivity.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ClientBrowser.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CollaborationGroup.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CollaborationGroupFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CollaborationGroupMember.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CollaborationGroupMemberRequest.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CollaborationInvitation.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CombinedAttachment.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Community.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Contact.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContactCleanInfo.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContactFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContactHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContactShare.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContentDocument.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContentDocumentFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContentDocumentHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContentDocumentLink.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContentVersion.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContentVersionHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContentWorkspace.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContentWorkspaceDoc.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Contract.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContractContactRole.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContractFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContractHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ContractStatus.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CronJobDetail.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\CronTrigger.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DandBCompany.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Dashboard.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DashboardComponent.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DashboardComponentFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DashboardFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DatacloudCompany.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DatacloudContact.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DatacloudDandBCompany.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DatacloudOwnedEntity.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DatacloudPurchaseUsage.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DatacloudSocialHandle.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DeclinedEventRelation.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Document.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DocumentAttachmentMap.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Domain.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\DomainSite.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\EmailServicesAddress.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\EmailServicesFunction.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\EmailStatus.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\EmailTemplate.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\EntitySubscription.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Event.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\EventFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\EventRelation.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\FeedComment.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\FeedItem.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\FeedLike.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\FeedPollChoice.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\FeedPollVote.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\FeedTrackedChange.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\FieldPermissions.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\FiscalYearSettings.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Folder.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ForecastShare.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Group.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\GroupMember.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\HashtagDefinition.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Holiday.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Idea.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\IdeaComment.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\InstalledMobileApp.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Lead.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\LeadCleanInfo.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\LeadFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\LeadHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\LeadShare.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\LeadStatus.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\LoginHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\LoginIp.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\MailmergeTemplate.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\MobileDeviceRegistrar.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Name.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Note.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\NoteAndAttachment.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ObjectPermissions.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OpenActivity.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Opportunity.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OpportunityCompetitor.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OpportunityContactRole.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OpportunityFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OpportunityFieldHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OpportunityHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OpportunityLineItem.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OpportunityPartner.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OpportunityShare.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OpportunityStage.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Order.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OrderFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OrderHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OrderItem.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OrderItemFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OrderItemHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Organization.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OrgWideEmailAddress.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\OwnedContentDocument.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Partner.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\PartnerRole.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Period.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\PermissionSet.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\PermissionSetAssignment.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\PermissionSetLicense.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\PermissionSetLicenseAssign.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Pricebook2.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Pricebook2History.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\PricebookEntry.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ProcessDefinition.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ProcessInstance.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ProcessInstanceHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ProcessInstanceStep.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ProcessInstanceWorkitem.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ProcessNode.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Product2.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Product2Feed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Profile.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\PushTopic.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\QueueSobject.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\RecentlyViewed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\RecordType.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Report.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\ReportFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Scontrol.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Session_Speaker__c.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Session__c.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\SetupEntityAccess.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Site.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\SiteFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\SiteHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Solution.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\SolutionFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\SolutionHistory.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\SolutionStatus.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Sonar__c.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Speaker__c.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\StaticResource.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Task.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\TaskFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\TaskPriority.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\TaskStatus.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\TenantUsageEntitlement.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Topic.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\TopicAssignment.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\TopicFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\UndecidedEventRelation.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\User.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\UserFeed.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\UserLicense.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\UserLogin.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\UserPreference.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\UserProfile.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\UserRecordAccess.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\UserRole.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\UserShare.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Vote.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\WebLink.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Models\Salesforce\Widget__c.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\Salesforce\SalesforceOAuthRedirectHandler.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
-    <Compile Include="Services\Salesforce\SalesforceService.cs">
-      <ConnectedServiceReference>Salesforce Connected App</ConnectedServiceReference>
-    </Compile>
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\jquery-2.1.1.js" />
-    <Content Include="Scripts\jquery-2.1.1.min.js" />
-    <Content Include="Scripts\jquery-2.1.1.min.map" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.matchmedia.addListener.js" />
-    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
@@ -912,6 +206,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\_RemoveAccountPartial.cshtml" />
@@ -940,13 +235,16 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Salesforce.OWIN.Security.Provider\Salesforce.OWIN.Security.Provider.csproj">
+    <ProjectReference Include="..\Salesforce.Owin.Security.Provider\Salesforce.Owin.Security.Provider.csproj">
       <Project>{101c0bdc-966f-4f81-a0dc-f0b18094d8d2}</Project>
-      <Name>Salesforce.OWIN.Security.Provider</Name>
+      <Name>Salesforce.Owin.Security.Provider</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
@@ -965,7 +263,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61848</DevelopmentServerPort>
+          <DevelopmentServerPort>50557</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:54752/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
@@ -977,13 +275,6 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

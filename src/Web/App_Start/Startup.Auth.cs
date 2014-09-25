@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Diagnostics;
-using System.Security.Claims;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Salesforce.Owin.Security.Provider;
 using Web.Models;
 
 namespace Web
@@ -67,19 +64,7 @@ namespace Web
             //    ClientSecret = ""
             //});
 
-            app.UseSalesforceAuthentication(new SalesforceAuthenticationOptions
-            {
-                ClientId = "3MVG9xOCXq4ID1uECprHw9yA2eoc._koCdHHAJWt2__2ipMiGPtXv7EL..CfXHRT4ueepOabH4RDEPNEV8OKS",
-                ClientSecret = "2169173640124302241",
-                Provider = new SalesforceAuthenticationProvider()
-                {
-                    OnAuthenticated = async context =>
-                    {
-                        context.Identity.AddClaim(new Claim("urn:Salesforce:accessToken", context.AccessToken));
-                        context.Identity.AddClaim(new Claim("urn:Salesforce:refreshToken", context.RefreshToken));
-                    }
-                },
-            });
+            ConfigureSalesforce(app);
         }
     }
 }

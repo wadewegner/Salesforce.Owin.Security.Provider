@@ -1,2 +1,2 @@
-Salesforce.OWIN.Security.Provider
+Salesforce.Owin.Security.Provider
 =================================

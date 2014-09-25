@@ -19,13 +19,13 @@ namespace Salesforce.Owin.Security.Provider
     {
         private const string XmlSchemaString = "http://www.w3.org/2001/XMLSchema#string";
 
-        private readonly ILogger logger;
-        private readonly HttpClient httpClient;
+        private readonly ILogger _logger;
+        private readonly HttpClient _httpClient;
 
         public SalesforceAuthenticationHandler(HttpClient httpClient, ILogger logger)
         {
-            this.httpClient = httpClient;
-            this.logger = logger;
+            _httpClient = httpClient;
+            _logger = logger;
         }
 
         protected override async Task<AuthenticationTicket> AuthenticateCoreAsync()
@@ -56,7 +56,7 @@ namespace Salesforce.Owin.Security.Provider
                 }
 
                 // OAuth2 10.12 CSRF
-                if (!ValidateCorrelationId(properties, logger))
+                if (!ValidateCorrelationId(properties, _logger))
                 {
                     return new AuthenticationTicket(null, properties);
                 }
@@ -76,7 +76,7 @@ namespace Salesforce.Owin.Security.Provider
                 var requestMessage = new HttpRequestMessage(HttpMethod.Post, Options.Endpoints.TokenEndpoint);
                 requestMessage.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 requestMessage.Content = new FormUrlEncodedContent(body);
-                HttpResponseMessage tokenResponse = await httpClient.SendAsync(requestMessage);
+                HttpResponseMessage tokenResponse = await _httpClient.SendAsync(requestMessage);
                 tokenResponse.EnsureSuccessStatusCode();
                 string text = await tokenResponse.Content.ReadAsStringAsync();
 
@@ -88,7 +88,7 @@ namespace Salesforce.Owin.Security.Provider
                 // Get the Salesforce user using the user info endpoint, which is part of the token - response.id
                 HttpRequestMessage userRequest = new HttpRequestMessage(HttpMethod.Get, (string)response.id + "?access_token=" + Uri.EscapeDataString(accessToken));
                 userRequest.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage userResponse = await httpClient.SendAsync(userRequest, Request.CallCancelled);
+                HttpResponseMessage userResponse = await _httpClient.SendAsync(userRequest, Request.CallCancelled);
                 userResponse.EnsureSuccessStatusCode();
                 text = await userResponse.Content.ReadAsStringAsync();
                 JObject user = JObject.Parse(text);
@@ -141,7 +141,7 @@ namespace Salesforce.Owin.Security.Provider
             }
             catch (Exception ex)
             {
-                logger.WriteError(ex.Message);
+                _logger.WriteError(ex.Message);
             }
             return new AuthenticationTicket(null, properties);
         }
@@ -217,7 +217,7 @@ namespace Salesforce.Owin.Security.Provider
                 AuthenticationTicket ticket = await AuthenticateAsync();
                 if (ticket == null)
                 {
-                    logger.WriteWarning("Invalid return state, unable to redirect.");
+                    _logger.WriteWarning("Invalid return state, unable to redirect.");
                     Response.StatusCode = 500;
                     return true;
                 }

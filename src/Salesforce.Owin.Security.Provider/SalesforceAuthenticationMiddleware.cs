@@ -13,8 +13,8 @@ namespace Salesforce.Owin.Security.Provider
 {
     public class SalesforceAuthenticationMiddleware : AuthenticationMiddleware<SalesforceAuthenticationOptions>
     {
-        private readonly HttpClient httpClient;
-        private readonly ILogger logger;
+        private readonly HttpClient _httpClient;
+        private readonly ILogger _logger;
 
         public SalesforceAuthenticationMiddleware(OwinMiddleware next, IAppBuilder app,
             SalesforceAuthenticationOptions options)
@@ -28,7 +28,7 @@ namespace Salesforce.Owin.Security.Provider
                 throw new ArgumentException(String.Format(CultureInfo.CurrentCulture,
                     "The '{0}' option must be provided.", "ClientSecret"));
 
-            logger = app.CreateLogger<SalesforceAuthenticationMiddleware>();
+            _logger = app.CreateLogger<SalesforceAuthenticationMiddleware>();
 
             if (Options.Provider == null)
                 Options.Provider = new SalesforceAuthenticationProvider();
@@ -44,18 +44,18 @@ namespace Salesforce.Owin.Security.Provider
             if (String.IsNullOrEmpty(Options.SignInAsAuthenticationType))
                 Options.SignInAsAuthenticationType = app.GetDefaultSignInAsAuthenticationType();
 
-            httpClient = new HttpClient(ResolveHttpMessageHandler(Options))
+            _httpClient = new HttpClient(ResolveHttpMessageHandler(Options))
             {
                 Timeout = Options.BackchannelTimeout,
                 MaxResponseContentBufferSize = 1024*1024*10,
             };
-            httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("Microsoft Owin Salesforce middleware");
-            httpClient.DefaultRequestHeaders.ExpectContinue = false;
+            _httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("Microsoft Owin Salesforce middleware");
+            _httpClient.DefaultRequestHeaders.ExpectContinue = false;
         }
 
         protected override AuthenticationHandler<SalesforceAuthenticationOptions> CreateHandler()
         {
-            return new SalesforceAuthenticationHandler(httpClient, logger);
+            return new SalesforceAuthenticationHandler(_httpClient, _logger);
         }
 
         private HttpMessageHandler ResolveHttpMessageHandler(SalesforceAuthenticationOptions options)
