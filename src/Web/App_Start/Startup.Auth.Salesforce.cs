@@ -22,7 +22,6 @@ namespace Web
                             "https://login.salesforce.com/services/oauth2/authorize",
                         TokenEndpoint = "https://login.salesforce.com/services/oauth2/token",
                     },
-                // wade@appplatdemo.com
                 ClientId = "3MVG9JZ_r.QzrS7izXVWrETc3vyjzE2_4D8cVFZMzoNiravzQUQAasuoDynfkqc5yJvlfE7shOtkQm4FeZJjg",
                 ClientSecret = "7476749690614642061",
                 Provider = new SalesforceAuthenticationProvider()
