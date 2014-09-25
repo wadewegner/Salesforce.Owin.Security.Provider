@@ -13,7 +13,7 @@ using Microsoft.Owin.Security.Infrastructure;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Salesforce.OWIN.Security.Provider
+namespace Salesforce.Owin.Security.Provider
 {
     public class SalesforceAuthenticationHandler : AuthenticationHandler<SalesforceAuthenticationOptions>
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Owin;
 
-namespace Salesforce.OWIN.Security.Provider
+namespace Salesforce.Owin.Security.Provider
 {
     public static class SalesforceAuthenticationExtensions
     {

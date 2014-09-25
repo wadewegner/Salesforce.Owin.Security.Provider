@@ -7,7 +7,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Salesforce.OWIN.Security.Provider;
+using Salesforce.Owin.Security.Provider;
 using Web.Models;
 
 namespace Web

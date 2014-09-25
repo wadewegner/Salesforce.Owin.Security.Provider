@@ -4,7 +4,7 @@ using System.Net.Http;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 
-namespace Salesforce.OWIN.Security.Provider
+namespace Salesforce.Owin.Security.Provider
 {
     public class SalesforceAuthenticationOptions : AuthenticationOptions
     {

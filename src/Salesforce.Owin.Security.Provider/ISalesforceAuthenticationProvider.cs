@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Salesforce.OWIN.Security.Provider
+namespace Salesforce.Owin.Security.Provider
 {
     public interface ISalesforceAuthenticationProvider
     {

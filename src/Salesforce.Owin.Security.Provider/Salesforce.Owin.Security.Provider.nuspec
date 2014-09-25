@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Salesforce.OWIN.Security.Provider</id>
+    <id>Salesforce.Owin.Security.Provider</id>
     <version>0.0.1</version>
     <title>An OWIN security provider for Salesforce</title>
     <authors>wadewegner</authors>
     <owners>wadewegner</owners>
-    <licenseUrl>https://raw.githubusercontent.com/wadewegner/Salesforce.OWIN.Security.Provider/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/wadewegner/Salesforce.OWIN.Security.Provider</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/wadewegner/Salesforce.Owin.Security.Provider/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/wadewegner/Salesforce.Owin.Security.Provider</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>An OWIN security provider for Salesforce.</description>
     <releaseNotes></releaseNotes>

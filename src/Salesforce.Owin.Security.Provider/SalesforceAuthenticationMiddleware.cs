@@ -9,7 +9,7 @@ using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Infrastructure;
 using Owin;
 
-namespace Salesforce.OWIN.Security.Provider
+namespace Salesforce.Owin.Security.Provider
 {
     public class SalesforceAuthenticationMiddleware : AuthenticationMiddleware<SalesforceAuthenticationOptions>
     {
